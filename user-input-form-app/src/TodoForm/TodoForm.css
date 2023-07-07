@@ -1,0 +1,49 @@
+.todo-form_controls {
+  margin: 5rem 0;
+  width: 30rem;
+  max-width: 90%;
+  gap: 1rem;
+  margin: 3rem auto;
+  padding: 1px;
+  text-align: left;
+}
+
+.todo-form_control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.todo-form_control input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  padding: 0 0.25rem;
+  line-height: 1.5rem;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+.todo-form_control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.todo-form_control button {
+  text-align: right;
+  margin-top: 1rem;
+  background-color: rgb(117, 2, 60);
+  color: rgb(255, 255, 255);
+  padding: 4px 12px;
+  border: 1px solid rgb(117, 2, 60);
+}
+
+.todo-form_control.invalid label {
+  color: rgba(255, 0, 0, 0.849);
+}
+
+.todo-form_control.invalid input {
+  border-color: rgba(255, 0, 0, 0.849);
+  background: rgba(255, 3, 3, 0.322);
+}

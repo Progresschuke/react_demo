@@ -1,0 +1,17 @@
+.user-form {
+  width: 30rem;
+  max-width: 90%;
+  background-color: #e6e3e3;
+  margin: 3rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0px 6px 0px;
+}
+
+.user-details {
+  width: 30rem;
+  max-width: 90%;
+  padding: 1rem 0;
+  margin: 3rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0px 6px 0px;
+}
